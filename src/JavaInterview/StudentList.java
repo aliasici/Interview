@@ -64,6 +64,7 @@ public class StudentList {
 
         student1.countDown();
         student2.countDown();
+        // merhaba
 
     }
 }
