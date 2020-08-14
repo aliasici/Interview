@@ -20,6 +20,7 @@ public class hasBad {
             }
                 return false;
 
+            // merhaba
 
 
         }
