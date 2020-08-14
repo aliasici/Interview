@@ -1,5 +1,8 @@
 package JavaInterview;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class Uniques {
     public static void main(String[] args) {
         String str = "AAADBBC";
@@ -19,4 +22,6 @@ public class Uniques {
         }
         System.out.println(nonDup);
     }
+
+
 }

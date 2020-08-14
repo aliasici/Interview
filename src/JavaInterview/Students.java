@@ -1,4 +1,4 @@
-package HasanKayman;
+package JavaInterview;
 
 public class Students {
     String name;

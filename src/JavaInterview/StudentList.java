@@ -1,4 +1,4 @@
-package HasanKayman;
+package JavaInterview;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -25,8 +25,8 @@ public class StudentList {
 
         //number of female students who have gpa higher than 3.20 or male students who have gpa higher than 3.50
 
-        /*studentlist.removeIf(p -> !((p.gpa > 3.20 && p.gender.equals("Female")) || (p.gpa > 3.50 && p.gender.equals("Male"))));  // false && true ==> false
-        System.out.println(studentlist.size());*/
+            /*studentlist.removeIf(p -> !((p.gpa > 3.20 && p.gender.equals("Female")) || (p.gpa > 3.50 && p.gender.equals("Male"))));  // false && true ==> false
+            System.out.println(studentlist.size());*/
 
         // Name of Student who has highest gpa
 
@@ -63,12 +63,8 @@ public class StudentList {
         System.out.println("****************************************");
 
         student1.countDown();
-
+        student2.countDown();
 
     }
 }
-
-
-
-
 
