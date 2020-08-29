@@ -6,8 +6,6 @@ public class hasWord {
 
         System.out.println(hasBad(str));
 
-
-
     }
     public static boolean hasBad(String str){
 
@@ -21,6 +19,7 @@ public class hasWord {
         return false;
 
         // merhaba
+        // hello hello
 
 
     }
