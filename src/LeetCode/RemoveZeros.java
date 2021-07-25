@@ -14,6 +14,7 @@ public class RemoveZeros {
                 nums[index]= nums[i];
                 index++;
             }
+        //    System.out.println(index);
 
         }
         for (int i = index; i <nums.length ; i++) {

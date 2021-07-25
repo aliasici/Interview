@@ -1,11 +1,20 @@
 package Cybertek;
 
 public class ReverseNumber {
+    static int num = 20;
+    //int num = 40;
+
+    static {
+
+        num = 60;
+        num =100;
+    }
 
 
     public static void main(String[] args) {
         int x =452;
         System.out.println(reverse(452));
+        System.out.println(num);
 
     }
 
