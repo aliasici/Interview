@@ -18,9 +18,9 @@ public class BubbleSort {
             for (int j = array.length-1; j >i; j--){
 
                 if (array[j] < array[j-1]){
-                    int temper = array[j];
+                    int temp= array[j];
                     array[j] = array[j-1];
-                    array[j-1] = temper;
+                    array[j-1] = temp;
                 }
             }
         }

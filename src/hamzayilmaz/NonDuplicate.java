@@ -1,6 +1,9 @@
 package hamzayilmaz;
 
+import java.util.Arrays;
+import java.util.HashSet;
 import java.util.Scanner;
+import java.util.Set;
 
 public class NonDuplicate {
     public static void main(String[] args) {
@@ -13,6 +16,14 @@ public class NonDuplicate {
         System.out.println(num);
 
         String word = "";
+
+        Set<Character> list = new HashSet<>();
+        for (int i = 0; i < num; i++){
+            list.add(first.charAt(i));
+
+        }
+        System.out.println(list);
+
 
 
         for (int i = 0; i <num ; i++ ){
