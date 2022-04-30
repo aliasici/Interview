@@ -1,6 +1,7 @@
 package JavaInterview;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 
 public class Uniques2 {
@@ -9,6 +10,7 @@ public class Uniques2 {
         String result = "";
 
         ArrayList<String> list = new ArrayList<>();
+ //       list.addAll(Arrays.asList(str.split("")));
 
         for(String each : str.split("")){
             list.add(each);

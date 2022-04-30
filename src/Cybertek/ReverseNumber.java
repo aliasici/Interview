@@ -16,6 +16,9 @@ public class ReverseNumber {
         System.out.println(reverse(452));
         System.out.println(num);
 
+        String str = "alim";
+        reverse(str);
+
     }
 
     public static int reverse(int x) {
@@ -29,6 +32,26 @@ public class ReverseNumber {
         }
 
         return reversed;
+    }
+
+    public static void reverse(String str) {
+
+        int low = 0;
+        int last = str.length() - 1;
+        boolean isMatch = true;
+
+        for (int i = low; i < str.length(); i++) {
+            if (str.charAt(low) != str.charAt(last)) {
+                isMatch = false;
+                System.out.println("This is not palindrome");
+                break;
+            }
+            low++;
+            last--;
+        }
+        if (isMatch) {
+            System.out.println("This is palindrome");
+        }
     }
 
 

@@ -12,6 +12,7 @@ public class SumOfDigits {
      public static void main(String[] args) {
          String str = "a2b3c4";
          int sum = 0;
+         int count = 0;
 
          for(int i = 0; i <= str.length()-1; i++){
              char each = str.charAt(i);
@@ -20,7 +21,20 @@ public class SumOfDigits {
                  System.out.println(sum);
              }
 
+
          }
+         System.out.println("+++++++++++++++");
+
+         for(int i = 0; i <= str.length()-1; i++){
+             char each = str.charAt(i);
+             if(Character.isDigit(each)){
+                 count += Integer.parseInt(""+each);
+                 System.out.println(count);
+             }
+
+         }
+
+
 
      }
 

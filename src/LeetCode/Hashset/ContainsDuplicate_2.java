@@ -16,7 +16,7 @@ public class ContainsDuplicate_2 {
         Arrays.sort(nums);
 
         for (int i = 0; i < nums.length; i++) {
-            if (nums[i] == nums[i]) return true;
+            if (nums[i] == nums[i+1]) return true;
 
         }
 

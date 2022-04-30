@@ -5,7 +5,9 @@ import java.util.*;
 public class FrequancyOfChar {
     public static void main(String[] args) {
         String str = "aaabbbccb"; // a3b4c2
+        int [] arr = {1,2,4,5,6,6,6,6,6};
         Map<String, Integer> map = new LinkedHashMap<>(); // {a=3, b=4, c=2}
+
 
         List<String> list =  Arrays.asList( str.split("") );
 

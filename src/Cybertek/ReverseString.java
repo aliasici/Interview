@@ -4,7 +4,7 @@ public class ReverseString {
 
     public static void main(String[] args) {
 
-        String word = "alis";
+        String word = "alis melis";
 
         System.out.println(reverse(word));
 

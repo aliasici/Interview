@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class RemoveValue {
 
     public static void main(String[] args) {
-        int[] arr = {1,3,2,3,3,6};
+        int[] arr = {1,3,2,3,3,6,7};
         int value = 3;
 
         System.out.println(removeValue(arr,value));
